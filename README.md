@@ -1,25 +1,6 @@
-# Prerequisites
+# PROYECTO Nª 1: AUTOMATIZACIÒN DE DESPLIEGUE APP MULTI-TIER CON VAGRANT
 #
-- JDK 1.8 or later
-- Maven 3 or later
-- MySQL 5.6 or later
+1. Este proyecto contiene una aplicaciòn JAVA que se desplegará bajo una arquitectura distribuida en 5 máquinas virtuales para cada servicio:
+- 
 
-# Technologies 
-- Spring MVC
-- Spring Security
-- Spring Data JPA
-- Maven
-- JSP
-- MySQL
-# Database
-Here,we used Mysql DB 
-MSQL DB Installation Steps for Linux ubuntu 14.04:
-- $ sudo apt-get update
-- $ sudo apt-get install mysql-server
-
-Then look for the file :
-- /src/main/resources/accountsdb
-- accountsdb.sql file is a mysql dump file.we have to import this dump to mysql db server
-- > mysql -u <user_name> -p accounts < accountsdb.sql
-
-
+![Alt text](image.png)
